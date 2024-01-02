@@ -1,4 +1,4 @@
- <script>
+
         const darkModeToggle = document.getElementById('darkModeToggle');
         const body = document.body;
         const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
@@ -16,4 +16,4 @@
                 localStorage.setItem('darkMode', 'disabled')
             }
         });
-    </script>
+   
